@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body{
+background-color: black; 
+}
+
+nav{
+  height:29px;
+  width: 100%;
+  gap:20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.nav1{
+  display: flex;
+  align-items: center;
+  color:rgb(255, 255, 255);
+}
+.nav2{
+  display: flex;
+}
+.nav3{
+  display: flex;
+  justify-content: space-between;
+  gap:15px;
+}
+
+.sbtn{
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+h5{
+  color: rgb(156, 156, 156);
+  margin-right: 80px;
+}
+
+.search-text{
+  width: 980px;
+  color: aliceblue;
+}
+
+main{
+  display: flex;
+}
